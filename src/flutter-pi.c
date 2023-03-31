@@ -1400,20 +1400,6 @@ int flutterpi_fill_view_properties(
 	// flutterpi.view.display_to_view_transform.pers1=0.0;
   // flutterpi.view.display_to_view_transform.pers2=1.0;
 
-
-	flutterpi.view.display_to_view_transform.scaleX=0.0;
-  flutterpi.view.display_to_view_transform.skewX=-1.71;
-  flutterpi.view.display_to_view_transform.transX=513.0;
-
-  flutterpi.view.display_to_view_transform.skewY=0.76;
-  flutterpi.view.display_to_view_transform.scaleY=0.0;
-  flutterpi.view.display_to_view_transform.transY=-22.8;
-
-	flutterpi.view.display_to_view_transform.pers0=0.0;
-	flutterpi.view.display_to_view_transform.pers1=0.0;
-  flutterpi.view.display_to_view_transform.pers2=1.0;
-
-
     if (flutterpi.user_input != NULL) {
         // update the user input with the new transforms
         user_input_set_transform(
